@@ -1,0 +1,50 @@
+﻿  Building 'driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  comms.cpp
+  hooks.cpp
+  ice.cpp
+  kaspersky.cpp
+  main.cpp
+  old_comms.cpp
+C:\Users\Jordan\Documents\New folder (11)\driver\ice.cpp(163,46): error C2220: the following warning is treated as an error
+C:\Users\Jordan\Documents\New folder (11)\driver\ice.cpp(163,46): warning C4996: 'ExAllocatePool': was declared deprecated
+C:\Users\Jordan\Documents\New folder (11)\driver\structs.hpp(587,4): error C2220: the following warning is treated as an error (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\structs.hpp(587,4): warning C4201: nonstandard extension used: nameless struct/union (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\structs.hpp(602,4): warning C4201: nonstandard extension used: nameless struct/union (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\structs.hpp(587,4): error C2220: the following warning is treated as an error (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\structs.hpp(587,4): warning C4201: nonstandard extension used: nameless struct/union (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\structs.hpp(602,4): warning C4201: nonstandard extension used: nameless struct/union (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\structs.hpp(587,4): error C2220: the following warning is treated as an error (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\structs.hpp(587,4): warning C4201: nonstandard extension used: nameless struct/union (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\structs.hpp(602,4): warning C4201: nonstandard extension used: nameless struct/union (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(78,43): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(118,43): warning C4996: 'MmMapLockedPages': was declared deprecated (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(331,29): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(373,24): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(78,43): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(78,43): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(118,43): warning C4996: 'MmMapLockedPages': was declared deprecated (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(118,43): warning C4996: 'MmMapLockedPages': was declared deprecated (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(331,29): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(331,29): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(373,24): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(373,24): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(559,32): warning C4302: 'type cast': truncation from 'HANDLE' to 'ULONG' (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(536,17): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(559,32): warning C4302: 'type cast': truncation from 'HANDLE' to 'ULONG' (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(536,17): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(559,32): warning C4302: 'type cast': truncation from 'HANDLE' to 'ULONG' (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\utils.hpp(536,17): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\process.hpp(107,25): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\process.hpp(111,23): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\process.hpp(107,25): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\process.hpp(111,23): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\hiding.hpp(89,30): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file hooks.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\hiding.hpp(89,30): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file comms.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\process.hpp(107,25): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\process.hpp(111,23): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\hiding.hpp(89,30): warning C4996: 'ExAllocatePool': was declared deprecated (compiling source file main.cpp)
+C:\Users\Jordan\Documents\New folder (11)\driver\main.cpp(48,29): warning C4459: declaration of 'MagicValue' hides global declaration
+C:\Users\Jordan\Documents\New folder (11)\driver\main.cpp(36,15): message : see declaration of 'MagicValue'
+C:\Users\Jordan\Documents\New folder (11)\driver\main.cpp(118,28): warning C4456: declaration of 'UniqueProcessId' hides previous local declaration
+C:\Users\Jordan\Documents\New folder (11)\driver\main.cpp(99,8): message : see declaration of 'UniqueProcessId'
+C:\Users\Jordan\Documents\New folder (11)\driver\main.cpp(118,10): warning C4189: 'UniqueProcessId': local variable is initialized but not referenced
